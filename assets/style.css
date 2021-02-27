@@ -1,3 +1,12 @@
+:root {
+ --dark-blue: #000f22;
+ --light-gray:#adadadef;
+ --light-blue:#008cff;
+ --white-wolf:#ffffff;
+ --black:#000000;
+ --font-primary: apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ --font-secondary: 'Times New Roman', Times, serif;
+}
 body {
     background-color:rgb(216, 216, 216);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -6,3 +15,71 @@ body {
     html{ 
       scroll-behavior: smooth;
     }
+/*link style*/
+a {
+ text-decoration: none;
+ color: var(--black)
+}
+
+/**hero**/
+.hero {
+height: 200px;
+width: 100%;
+margin-bottom: 25px;
+background-image: url(https://i.pinimg.com/originals/0d/af/b7/0dafb7928a99a9cb552a941895a6e586.jpg);
+background-size: cover;
+background-position: center;
+}
+/*header style*/
+header {
+padding: 5px 15px;: 35px 35px 20px 0px;
+background:var(--dark-blue);
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+position: -webkit-sticky;
+position: sticky;
+top: 0;
+border-bottom: 40x solid var(--light-blue);
+z-index: 999;
+}
+
+header h1 {
+
+color: var(--white-wolf);
+background: var(--light-blue);
+font-size: 40px;
+padding: 5px 15px;: 4px 55px;
+font-family: var(--font-primary);
+border-radius: 0 20px 20px 0;
+}
+
+header nav {
+
+margin: 15px;
+}
+
+header nav ul {
+         
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li {
+    margin: 0 5px;
+
+
+}
+
+header nav ul li a {
+
+font-size: 20px;
+padding: 5px 15px;
+font-family: var(--font-secondary);
+border-bottom: 2px solid var(--light-blue);
+border-radius: 10px;
+
+}
