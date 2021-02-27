@@ -24,15 +24,29 @@ a {
 /**hero**/
 .hero {
 height: 200px;
+display: flex;
+justify-content: flex-end;
+align-items: flex-end;
 width: 100%;
 margin-bottom: 25px;
 background-image: url(https://i.pinimg.com/originals/0d/af/b7/0dafb7928a99a9cb552a941895a6e586.jpg);
 background-size: cover;
 background-position: center;
 }
+
+.hero h2 {
+
+font-family: var(--font-primary);
+background: var(--dark-blue);
+color: var(--white-wolf);
+font-size: 70px;
+margin-bottom: 20px;
+border-radius: 20px 0 0 20px;
+position: right;
+}
 /*header style*/
 header {
-padding: 5px 15px;: 35px 35px 20px 0px;
+padding:35px 35px 20px 0px;
 background:var(--dark-blue);
 display: flex;
 justify-content: space-between;
@@ -40,7 +54,7 @@ flex-wrap: wrap;
 position: -webkit-sticky;
 position: sticky;
 top: 0;
-border-bottom: 40x solid var(--light-blue);
+border-bottom: 40x solid var(--white-wolf);
 z-index: 999;
 }
 
@@ -49,7 +63,7 @@ header h1 {
 color: var(--white-wolf);
 background: var(--light-blue);
 font-size: 40px;
-padding: 5px 15px;: 4px 55px;
+padding: 5px 15px;
 font-family: var(--font-primary);
 border-radius: 0 20px 20px 0;
 }
@@ -77,9 +91,18 @@ header nav ul li {
 header nav ul li a {
 
 font-size: 20px;
+color: var(--light-blue);
 padding: 5px 15px;
 font-family: var(--font-secondary);
 border-bottom: 2px solid var(--light-blue);
 border-radius: 10px;
+
+}
+
+header nav ul li a:hover{
+
+ background: var(--white-wolf);
+ border-radius: 10px;
+ transition: 0.10s;
 
 }
