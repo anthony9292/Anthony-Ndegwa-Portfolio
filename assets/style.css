@@ -6,7 +6,7 @@
   --light-blue: #008cff;
   --white-wolf: #ffffff;
   --black: #000000;
-  --blue-dark: #00000;
+  --blue-light: rgba(0, 221, 250, 0.911);
   --font-primary: apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
@@ -97,7 +97,7 @@ header nav ul li a {
 }
 
 header bar-nav ul li a:hover {
-  background: var(--light-blue);
+  background: var(--white-wolf);
   border-radius: 10px;
   transition: 0.1s;
 }
@@ -136,89 +136,134 @@ header bar-nav ul li a:hover {
 
 main {
     width: 91%;
-    margin: 4rem auto;
+    margin: 0rem auto;
     border-left: 5px solid var(--light-blue);
+    margin-left: 13px;
+    
   }
-  
 
+  
 .work-container {
   width: 19vw;
-  margin-top: 20px;
+  margin-top: 40px;
   display: flex;
   justify-content: flex-end;
   color: var(--light-blue);
 }
 
 .work-container h2 {
-  margin-right: 99px;
+  margin-right: 200px;
   width: 50px;
 }
-.box {
-  position: relative;
-  width: calc(400px - 30px);
-  height: calc(300px - 30px);
-  background: var(--black);
-  float: left;
-  margin: 15px;
+
+.container {
+ width: 80vw;
+ flex:1 0 100%;
+ padding:1rem;
+ transition: flex basis 500ms linear;
+ margin-bottom: 1.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+
+}
+.box{
+  position: relative; 
+  width: 350px;
+  padding: 40px;
+  background: var(--white-wolf);
+  box-shadow: 0 5px 15px rgb(0, 0,0.1);
+  border-radius: 4px;
+  margin:20px;
   box-sizing: border-box;
   overflow: hidden;
-  border-radius: 10px;
-}
-
-.box.icon {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgb(46, 51, 65);
-    transition: 0.5s;
-    z-index: 1;
+  text-align: center;
 
 }
 
-.box :hover .icon {
 
-top: 50px;
-left: calc(50% - 40px);
-width: 80px;
-height:80px;
+.icon{
+position: relative;
+width: 80px; 
+height: 80px;
+color: #fff;
+background:#000;
+display: flex;
+justify-content: center;
+align-items: center;
+margin:0 auto;
 border-radius: 50%;
+font-size: 40;
+font-weight: 700;
+transition: 1s;
 }
 
-.box :hover .icon .fa {
+.box:nth-child(1) .icon {
 
-  position:absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%,-50%);
-  font-size: 80px;
-  transition: 0.5s;
-  color: var(--light-blue);
+  box-shadow: var(--blue-light);
+  background: var(var(--blue-light));
+
 }
 
-.work-container.box a {
-  background: var(--dark-blue);
-}
-.descriton {
-  background: var(--dark-blue);
-  color: var(--white-wolf);
+.box:nth-child(1):hover .icon {
+
+  box-shadow: var(--blue-light);
 }
 
-.colume {
-  width: 90vw;
-  flex: 1 0 100%;
-  padding: 1rem;
-  transition: flex-basis 500ms linear;
-  margin-bottom: 1.5rem;
+
+.box:nth-child(2) .icon {
+
+  box-shadow: var(--blue-light);
+  background: var(var(--blue-light));
+
+}
+
+.box:nth-child(2):hover .icon {
+
+box-shadow: var(--black);
+}
+
+.box:nth-child(3) .icon {
+
+  box-shadow: green;
+  background: green;
+
+}
+
+.box:nth-child(3):hover .icon {
+
+box-shadow: green;
+}
+
+
+
+
+.box.content {
+
+position: relative;
+z-index: 1;
+transition: 0.5l;
+
 }
 
 /**contact styling**/
 
-.contilist { 
 
 
 
 
+/**footer*/
 
+
+.footer {
+  padding: 100px;
+  clear: both;
+  font-family: var(--font-primary);
+  text-align: center;
+  color: #000;
+}
+
+.footer h2 {
+  font-size: 20px;
 }
