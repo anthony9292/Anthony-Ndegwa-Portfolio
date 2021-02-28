@@ -4,6 +4,7 @@
  --light-blue:#008cff;
  --white-wolf:#ffffff;
  --black:#000000;
+ --blue-dark:#00000;
  --font-primary: apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 body {
@@ -12,15 +13,10 @@ body {
     margin: 0px;
     font-size: 1.75rem;
   line-height: 1.5;
-  color: var(--black);
+  color: var(--light-blue);
   background-color: var(--light-gray);
 }
    
-.pic image {
-    width: fit-content;
-}
-
-
 
 /*link style*/
 a {
@@ -44,7 +40,7 @@ background-position: center;
 .hero h2 {
 
 font-family: var(--font-primary);
-background: var(--dark-blue);
+background: var(--light-blue);
 color: var(--white-wolf);
 font-size: 70px;
 margin-bottom: 20px;
@@ -75,6 +71,7 @@ font-family: var(--font-primary);
 border-radius: 0 20px 20px 0;
 }
 
+
 header nav {
 
 margin: 15px;
@@ -98,7 +95,7 @@ header nav ul li {
 header nav ul li a {
 
 font-size: 20px;
-color: var(--light-blue);
+color: var(--white-wolf);
 padding: 5px 15px;
 font-family: var(--font-primary);
 border-bottom: 2px ridge var(--light-blue);
@@ -108,65 +105,87 @@ border-radius: 10px;
 
 header bar-nav ul li a:hover{
 
- background: var(--white-wolf);
+ background: var(--light-blue);
  border-radius: 10px;
  transition: 0.10s;
 
 }
 
+.all {
+    
+    display: flex;
+    flex-direction: row;
+
+}
+
 /**main section stlyling*/
 
-.container { 
-    width: auto;
-    margin: 0 auto;
-    padding: 40px 0;
-    display:flex;
+.about-container {
+
+   width: 30vw;
+   margin-top: 20px;
+   display: flex;
+   justify-content: flex-end;
+   color: var(--blue-dark);
+
+
+
+
 }
 
-.container-tittle {
-    width: 25%;
+.about-container h2 {
+
+margin-right: 10px;
+
+
+
+}
+
+.para {
+
     font-size: 25px;
-    font-weight: bold;
-    padding-right: 20px;
-    font-family: var(--font-primary);
-    border-radius: 15px;
-    margin-right: 10px;
-    text-align: right;
-   }
-
-   .about-container{
-         width: auto;
-         display: flex;
-         flex-wrap: wrap;
-         justify-content: space-around;
-        }
-
-    .about-container p {
-     width: auto;
-     margin-left: 10px;
-     font-size: 18px;
-     line-height: 1.5;
-     font-family: var(--font-primary);
+    color: var(--black);
+    display: inline;
+    padding-left: 30px;
+    margin-top: 10px;
+    margin-top: 50px;
+    text-emphasis-color: b;
+    border-left: 5px solid var(--light-blue);
 }
+
+
+main { width: 91%;
+margin: 4rem auto;
+border-left: 5px  solid var(--light-blue);
+}
+
+
 
 /** work styling*/
 
 .work-container {
-    position: relative;
-    width: 1200px;
-    height: 300px;
-   margin: 240px auto;
+    width: 19vw;
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-end;
+    color: var(--light-blue);
+} 
+
+.work-container h2 {
+
+margin-right: 99px;
+width: 50px;
+
 
     
 }
-.work-container .box {
+.box {
 position: relative;
 width: calc(400px - 30px);
 height: calc(300px - 30px);
 background: var(--light-blue);
 float: left;
 margin: 15px;
-
 box-sizing: border-box;
 overflow: hidden;
 border-radius: 10px;
@@ -179,4 +198,14 @@ background: var(--dark-blue);
     background: var(--dark-blue);
     color: var(--white-wolf);
     
+}
+
+
+.colume {
+
+    width: 90vw;
+    flex: 1 0 100%;
+    padding: 1rem;
+   transition: flex-basis 500ms linear;
+    margin-bottom: 1.5rem;
 }
