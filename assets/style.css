@@ -43,7 +43,6 @@ body {
  
  
  section div {
- 
  width: 100%;
  margin:1px;
  
@@ -61,23 +60,50 @@ body {
 .container .box {
 
   position: relative;
-  width: 340px;
+  width: 3500px;
   padding: 40px;
   background: lightblue;
   box-shadow: 0 5px 15px rgb(0, 0, 0);
   border-radius: 4px;
+  margin: 20px;
+  box-sizing: border-box;
+  overflow: hidden;
+  text-align: center;
 
 }
  
+.icon, .icon2, .icon3
+{
 
- 
- footer {
- 
- background: black;
- padding: 20px;
- 
- }
- 
+position:  relative;
+width: 70px;
+height: 70px;
+align-items: center;
+color: rgb(243, 243, 243);
+background:#000;
+display: flex;
+justify-content: center;
+margin: 0 auto;
+border-radius:  50%;
+font-size: 40px;
+font-weight:  700px;
+transition: 1s;
+list-style: none;
+text-decoration: none;
+cursor: pointer;
+
+}
+
+.icon{
+  box-shadow: red;
+  background: red;
+
+}
+.container:hover {
+ box-shadow: red
+
+}
+
  ul {
  
  margin: 0;
