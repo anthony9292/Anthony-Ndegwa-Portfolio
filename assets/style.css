@@ -8,6 +8,8 @@ body {
 
  }
  
+
+/**header styling**/
  header {
   background-color:black;
  padding: 25px;
@@ -33,6 +35,9 @@ body {
 
  li:first {background:black;}
 
+ 
+ 
+ 
  section {
      background: white;
      color: white;
@@ -46,8 +51,53 @@ body {
  width: 100%;
  margin:1px;
  
+
  }
  
+ ul {
+ 
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  }
+  
+  li {
+   display: inline-block;
+      margin-left: 20px;
+      border-radius: 3px;
+      padding: 2px;
+  }
+  
+  li :hover {
+  
+  background-color: lightslategray;
+  
+  }
+  li:first-child {
+  
+    margin-left: 0;
+  
+  }
+  
+  a {
+  
+    text-decoration: none;
+    color: inherit;
+  
+  
+  }
+  
+  
+  a:hover a:focus a:active {
+  
+  text-decoration: none;
+  color: inherit;
+  
+  }
+ 
+
+
+/**box styling**/
 
 .container {
   display: flex;
@@ -94,51 +144,98 @@ cursor: pointer;
 
 }
 
+.icon:hover, .icon:focus .icon:active{
+
+  box-shadow: 0 0 20px rgb(0, 0, 0);
+  -webkit-transform: scale(1.4);
+  transform: scale(1.4);
+
+}
+
 .icon{
+  color: white;
   box-shadow: red;
   background: red;
+  text-decoration: none;
 
 }
-.container:hover {
- box-shadow: red
+.icon2:hover, .icon2:focus .icon2:active{
+
+  box-shadow: 0 0 20px rgb(0, 0, 0);
+  -webkit-transform: scale(1.4);
+  transform: scale(1.4);
 
 }
 
- ul {
+.icon2{
+  color: white;
+  box-shadow: rgb(63, 251, 6);
+  background: rgb(81, 255, 0);
+  text-decoration: none;
+
+}
+
+.icon3:hover, .icon3:focus .icon3:active{
+
+  box-shadow: 0 0 20px rgb(0, 0, 0);
+  -webkit-transform: scale(1.4);
+  transform: scale(1.4);
+
+}
+
+.icon3{
+  color: white;
+  box-shadow: rgb(0, 0, 0);
+  background: rgb(0, 0, 0);
+  text-decoration: none;
+
+}
+
+
  
- margin: 0;
- padding: 0;
- list-style-type: none;
+/**footer styling*/
+ footer {
+
+   background:black;
+   color:gray;
+   font-size:12px;
+   padding:20px 20px;
+   text-align: center;
+
+
  }
- 
- li {
-  display: inline-block;
-     margin-left: 20px;
-     border-radius: 3px;
-     padding: 2px;
- }
- 
- li :hover {
- 
- background-color: lightslategray;
- 
- }
- li:first-child {
- 
-   margin-left: 0;
- 
- }
- 
- a {
- 
-   text-decoration: none;
- 
- 
- }
- 
- 
- a:hover {
- 
- text-decoration: underline
- 
- }
+
+ /**@media styling**/
+
+@media screen and (max-width: 715px) {
+  header {
+    height: 250px;
+    background-position: 0 --30px;
+  
+  }
+
+
+  
+}
+
+@media screen and (max-width: 715px) {
+  .container {
+    display:block;
+  
+  
+  }
+
+
+  
+}
+
+@media screen and (max-width: 500px) {
+  .header {
+   height: 200px;
+  background-position: 0 -px;
+  
+  }
+
+
+  
+}
