@@ -1,114 +1,95 @@
-body {   
-  background: rgba(226, 226, 226, 0.267) ;
+body {
+  background: rgba(226, 226, 226, 0.267);
   color: white;
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
   padding: 0;
   min-height: 100vh;
-
- }
- 
+}
 
 /**header styling**/
- header {
-  background-color:black;
- padding: 25px;
- height: 100px;
- background-image: url(https://image.freepik.com/free-psd/blank-notebook-set-colorful-pencils-wooden-table-paper-background-mock-up-banner-view-from_74580-2368.jpg) ;
- background-size: 100%;
+header {
+  background-color: black;
+  padding: 25px;
+  height: 100px;
+  background-image: url(https://image.freepik.com/free-psd/blank-notebook-set-colorful-pencils-wooden-table-paper-background-mock-up-banner-view-from_74580-2368.jpg);
+  background-size: 100%;
+}
 
- }
- 
- header a {
- color:rgb(0, 0, 0);
- text-decoration:none;
- text-transform: uppercase;
- margin-top: 40px;
+header a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-top: 40px;
+  background-color: lightblue;
+  padding: 0;
+  margin: 0;
+}
 
-
- }
-
- header h1 {
-
+header h1 {
   color: black;
- }
+  display: inline-block;
+  margin-top: 15px;
+    font-size: 48px;
+    background-color: lightblue;
+}
 
- li:first {background:black;}
+li:first {
+  background: black;
+}
 
- 
- 
- 
- section {
-     background: white;
-     color: white;
-     padding: 20px;
-     display: flex;
-     flex-direction: row;
- }
- 
- 
- section div {
- width: 100%;
- margin:1px;
- 
+section {
+  background: white;
+  color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+}
 
- }
- 
- ul {
- 
+section div {
+  width: 100%;
+  margin: 1px;
+}
+
+ul {
   margin: 0;
   padding: 0;
   list-style-type: none;
-  }
-  
-  li {
-   display: inline-block;
-      margin-left: 20px;
-      border-radius: 3px;
-      padding: 2px;
-  }
-  
-  li :hover {
-  
+}
+
+li {
+  display: inline-block;
+  margin-left: 20px;
+  border-radius: 3px;
+  padding: 2px;
+}
+
+li :hover {
   background-color: lightslategray;
-  
-  }
-  li:first-child {
-  
-    margin-left: 0;
-  
-  }
-  
-  a {
-  
-    text-decoration: none;
-    color: inherit;
-  
-  
-  }
-  
-  
-  a:hover a:focus a:active {
-  
+}
+li:first-child {
+  margin-left: 0;
+}
+
+a {
   text-decoration: none;
   color: inherit;
-  
-  }
- 
+}
 
+a:hover a:focus a:active {
+  text-decoration: none;
+  color: inherit;
+}
 
 /**box styling**/
 
 .container {
   display: flex;
   flex-wrap: wrap;
-  justify-content:space-between;
-
+  justify-content: space-between;
 }
 
-
 .container .box {
-
   position: relative;
   width: 3500px;
   padding: 40px;
@@ -119,123 +100,97 @@ body {
   box-sizing: border-box;
   overflow: hidden;
   text-align: center;
-
-}
- 
-.icon, .icon2, .icon3
-{
-
-position:  relative;
-width: 70px;
-height: 70px;
-align-items: center;
-color: rgb(243, 243, 243);
-background:#000;
-display: flex;
-justify-content: center;
-margin: 0 auto;
-border-radius:  50%;
-font-size: 40px;
-font-weight:  700px;
-transition: 1s;
-list-style: none;
-text-decoration: none;
-cursor: pointer;
-
 }
 
-.icon:hover, .icon:focus .icon:active{
+.icon,
+.icon2,
+.icon3 {
+  position: relative;
+  width: 70px;
+  height: 70px;
+  align-items: center;
+  color: rgb(243, 243, 243);
+  background: #000;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  border-radius: 50%;
+  font-size: 40px;
+  font-weight: 700px;
+  transition: 1s;
+  list-style: none;
+  text-decoration: none;
+  cursor: pointer;
+}
 
+.icon:hover,
+.icon:focus .icon:active {
   box-shadow: 0 0 20px rgb(0, 0, 0);
   -webkit-transform: scale(1.4);
   transform: scale(1.4);
-
 }
 
-.icon{
+.icon {
   color: white;
   box-shadow: red;
   background: red;
   text-decoration: none;
-
 }
-.icon2:hover, .icon2:focus .icon2:active{
-
+.icon2:hover,
+.icon2:focus .icon2:active {
   box-shadow: 0 0 20px rgb(0, 0, 0);
   -webkit-transform: scale(1.4);
   transform: scale(1.4);
-
 }
 
-.icon2{
+.icon2 {
   color: white;
   box-shadow: rgb(63, 251, 6);
   background: rgb(81, 255, 0);
   text-decoration: none;
-
 }
 
-.icon3:hover, .icon3:focus .icon3:active{
-
+.icon3:hover,
+.icon3:focus .icon3:active {
   box-shadow: 0 0 20px rgb(0, 0, 0);
   -webkit-transform: scale(1.4);
   transform: scale(1.4);
-
 }
 
-.icon3{
+.icon3 {
   color: white;
   box-shadow: rgb(0, 0, 0);
   background: rgb(0, 0, 0);
   text-decoration: none;
-
 }
 
-
- 
 /**footer styling*/
- footer {
+footer {
+  background: black;
+  color: gray;
+  font-size: 12px;
+  padding: 20px 20px;
+  text-align: center;
+}
 
-   background:black;
-   color:gray;
-   font-size:12px;
-   padding:20px 20px;
-   text-align: center;
-
-
- }
-
- /**@media styling**/
+/**@media styling**/
 
 @media screen and (max-width: 715px) {
   header {
     height: 250px;
     background-position: 0 --30px;
-  
   }
-
-
-  
 }
 
 @media screen and (max-width: 715px) {
   .container {
-    display:block;
-  
-  
+    display: block;
   }
-
-
-  
 }
 
 @media screen and (max-width: 500px) {
   .header {
-   height: 200px;
-  background-position: 0 -px;
-  
+    height: 200px;
+    background-position: 0 -px;
   }
-
-
-  
 }
