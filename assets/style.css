@@ -13,6 +13,8 @@ section{
 }
 
 
+/*HEADER SECTION*/ 
+
 .banner { 
   position: relative;
   min-height: 100vh;
@@ -154,6 +156,8 @@ img {
  max-width: 100%;
 }
 
+/* FILLER SECTION */
+
 .filler{
 
   background-color: #111;
@@ -202,4 +206,76 @@ color: #FFF;
 .filter .content .fillerBx h2 { 
   font-size: 20px;
   font-weight: 600;
+}
+
+
+/* WORK SECTION */
+
+.work .content { 
+
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+
+.work .content .workBx { 
+ width: 50%; 
+ padding: 20px;
+}
+
+.work .content .workBx img { 
+max-width: 100%;
+}
+
+
+/* REFERENCE SECTION */
+
+.reference{ 
+
+  background: #ffffff;
+}
+
+.reference .content { 
+
+ display: flex;
+ justify-content: space-between;
+ flex-wrap:wrap ;
+}
+
+.reference .content .referenceBx { 
+  max-width: calc(50% - 40px);
+ padding: 60px 40px;
+ margin: 20px;
+ background: rgb(0, 0, 0);
+
+}
+
+
+.reference .content .referenceBx p { 
+
+color: #FFF; 
+font-style: italic;
+font-size: 16px;
+font-weight: 300;
+
+}
+
+.reference .content .referenceBx h3 { 
+
+  margin-top: 40px;
+  text-align: end;
+  color: #FFF;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1em;
+}
+
+
+.reference .content .referenceBx h3 span { 
+font-size: 14px;
+font-weight: 400;
+
+
+
 }
