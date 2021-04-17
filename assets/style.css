@@ -71,10 +71,14 @@ header.sticky {
 
 background: #FFF;
 padding: 20px 100px;  
+box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
 }
 
+header.sticky .logo { 
 
+color: #111;
 
+}
 
 header .logo {
   color: #FFF; 
@@ -106,6 +110,11 @@ color: #FFF;
 text-decoration: none;
 }
 
+
+header.sticky ul li a { 
+color: #111;
+
+}
 .heading { 
 
   width: 100%;
@@ -143,4 +152,54 @@ min-width: 60%;
 
 img { 
  max-width: 100%;
+}
+
+.filler{
+
+  background-color: #111;
+
+
+}
+
+.heading.white { 
+
+color: #FFF;
+
+}
+
+.filler .content { 
+ display: flex;
+ justify-content: center;
+ flex-wrap: wrap;
+ flex-direction: row;
+}
+
+.filler .content .fillerBx { 
+
+  padding: 40px 20px;
+  background: #222;
+  color: #FFF;
+  max-width: 350px;
+  margin: 20px;
+  text-align: center;
+  transition: 0.5s;
+
+}
+
+
+.filler .content .fillerBx:hover { 
+
+  background-color: #2196f3;
+}
+
+
+.filler .content .fillerBx img { 
+ max-width: 80px;
+ filter: invert(1); 
+
+}
+
+.filter .content .fillerBx h2 { 
+  font-size: 20px;
+  font-weight: 600;
 }
