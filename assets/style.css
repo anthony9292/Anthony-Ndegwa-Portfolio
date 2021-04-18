@@ -34,7 +34,7 @@ section{
 }
 
 .banner h3 { 
- font-size: 1.5em;
+ font-size: 1.4em;
  color: #FFF;
  font-weight: 500;
 
@@ -83,8 +83,8 @@ color: #111;
 }
 
 header .logo {
-  color: #FFF; 
-  font-size: 32px;
+  color: rgb(255, 255, 255); 
+  font-size: 52px;
   text-transform: uppercase;
   text-decoration: none;
   font-weight:700;
@@ -107,7 +107,7 @@ list-style: none;
 header ul li a { 
 position: relative; 
 display: inline-block;
-margin: 0 15px;
+margin: 0 25px;
 color: #FFF;
 text-decoration: none;
 }
@@ -219,13 +219,26 @@ color: #FFF;
 }
 
 
-.work .content .workBx { 
- width: 50%; 
+
+
+.work .content .workBx{ 
+ width: 20%; 
  padding: 20px;
 }
 
 .work .content .workBx img { 
 max-width: 100%;
+}
+
+#one { 
+  color: rgb(0, 0, 0); 
+  font-size: 12px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight:50;
+  letter-spacing: 2px;
+text-align: center;
+
 }
 
 
@@ -276,6 +289,5 @@ font-weight: 300;
 font-size: 14px;
 font-weight: 400;
 
-
-
 }
+

@@ -5,8 +5,10 @@
 <meta charset="UTF-8"/>
 <link rel="stylesheet" href="assets/reset.css">
 <link rel="stylesheet" href= "assets/style.css">
-
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 <title> Anthony Ndegwa Portfolio</title>
 </head>
 <body>
@@ -14,21 +16,21 @@
     <a href="#" class="logo">Portfolio</a>
     <div class="toggle"></div>
     <ul>
-      <li><a href="#">Home</a></li>
-      <li><a href="#">about</a></li>
-      <li><a href="#">Filler</a></li>
-      <li><a href="#">Work</a></li>
-      <li><a href="#">Contact</a></li>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#filler">Filler</a></li>
+      <li><a href="#work">Work</a></li>
+      <li><a href="./assets/resume/Ndegwa resmume.pdf">resume</a></li>
     </ul>
   </header>
-<section class="banner">
+<section class="banner" id="home">
 <div class="textBx"> 
   <h2>Hello, I'm <br><span>Anthony Ndegwa.</span></h2>
   <h3>Developer In Training</h3>
-  <a href="#" class="btn">About Me</a>
+  <a href="#about" class="btn">About Me</a>
 </div>
 </section> 
-<section class="about"> 
+<section class="about" id="about"> 
   <div class="heading"> 
   <h2>About Me</h2>
   </div>
@@ -58,7 +60,7 @@
     </div>
   </div>
 </section>
-<section class="filler">
+<section class="filler" id="filler">
   <div class="heading white">
     <h2>Work in progres filler</h2>
     <p>Mauris lobortis, nisi egestas condimentum vulputate.</p>
@@ -108,31 +110,37 @@
   </div>
   </div>
 </section>
-<section class="work">  
+<section class="work" id="work">  
  <div class="heading">
   <h2>My latest work</h2>
   <p>Quisque eu erat quis arcu fringilla vehicula. Morbi ut massa sapien. Vivamus sagittis metus id leo.</p>
  </div>
  <div class="content">
    <div class="workBx">
-     <img src="/assets/keyboard.jpg">
+  <a href="https://github.com/anthony9292/Generate-Unique-Password"><img src="/assets/keyboard.jpg" alt="img"></a>
+  <p id="one">Password generator</p>
+  
    </div>
    <div class="workBx">
-    <img src="/assets/schedule.jpg">
+    <a href="https://github.com/anthony9292/Work-Schedule"><img src="/assets/schedule.jpg"></a>
+    <p id="one">Work Schedualer</p>
   
   </div>
   <div class="workBx">
-    <img src="/assets/weather3.jpg">
+    <a href="https://github.com/anthony9292/WeatherApi"><img src="/assets/weather3.jpg"></a>
+    <p id="one">Weather Dashboard</p>
   </div>
   <div class="workBx">
-    <img src="/assets/quiz2.jpg">
+   <a href="https://github.com/anthony9292/QUIZ-MASTER"><img src="/assets/quiz2.jpg"></a>
+    <p id="one">Quiz Master</p>
   </div>
   <div class="workBx">
-    <img src="/assets/group.jpg">
+    <a href="https://github.com/anthony9292/Plan-Asurfing"><img src="/assets/group.jpg"></a>
+    <p id="one">Group Project One</p>
   </div>
  </div>
  <div class="heading">
-   <a href="#" class="btn">View More</a>
+   <a href="https://github.com/anthony9292" class="btn">View More of My Work</a>
  </div>
 </section>
 <section class="reference">
@@ -162,8 +170,19 @@
         <h3>Previous Intructure<br><span>Full stack Developer</span></h3>
     </div>
   </div>
-</section>
-
+</section> 
+<div class="container">
+      <hr>
+          <div class="text-center center-block">
+              <p class="txt-railway">- Social links -</p>
+              <br />
+                  <a href="https://www.facebook.com/bootsnipp"><i id="social-fb" class="fa fa-facebook-square fa-3x social"></i></a>
+                <a href="https://twitter.com/bootsnipp"><i id="social-tw" class="fa fa-twitter-square fa-3x social"></i></a>
+                <a href="https://plus.google.com/+Bootsnipp-page"><i id="social-gp" class="fa fa-google-plus-square fa-3x social"></i></a>
+                <a href="mailto:bootsnipp@gmail.com"><i id="social-em" class="fa fa-envelope-square fa-3x social"></i></a>
+  </div>
+      <hr>
+  </div>
 <script src="./assets/script.js"></script>
 <script src="https://unpkg.com/boxicons@latest/dist/boxicons.js"></script>
 </body>
