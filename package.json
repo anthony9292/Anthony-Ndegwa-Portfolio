@@ -1,0 +1,22 @@
+{
+  "name": "anthony-ndegwa-portfolio-1",
+  "version": "1.0.0",
+  "description": "personal portfolio web page",
+  "main": "npm start ",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anthony9292/Anthony-Ndegwa-Portfolio-1.git"
+  },
+  "author": "Anthony Ndegwa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/anthony9292/Anthony-Ndegwa-Portfolio-1/issues"
+  },
+  "homepage": "https://github.com/anthony9292/Anthony-Ndegwa-Portfolio-1#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
