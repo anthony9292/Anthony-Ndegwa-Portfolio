@@ -17,7 +17,7 @@ Personal Portfolio Demonstration GIF:
 ![Sample of Portfolio](profile.gif)
 
 Portfolio Pic: 
-![Pick Of Portfolio](Capture.png)
+![Pick Of Portfolio](Capture.PNG)
 
 ## Youtube 
 
