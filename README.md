@@ -14,10 +14,10 @@ Professionl Portfolio webpage to know more about me and my work. Feel free to lo
 ## Images 
 Personal Portfolio Demonstration GIF: 
 
-![Sample of Portfolio]()
+![Sample of Portfolio](profile.gif)
 
 Portfolio Pic: 
-![Pick Of Portfolio]()
+![Pick Of Portfolio](Capture.png)
 
 ## Youtube 
 
