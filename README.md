@@ -12,12 +12,12 @@ Professionl Portfolio webpage to know more about me and my work. Feel free to lo
   - [Contributing](#contributing)
   - [Questions](#questions)
 ## Images 
-Employee Demonstration GIF: 
+Personal Portfolio Demonstration GIF: 
 
-![Sample of employee app running](https://github.com/anthony9292/employe-Hub/blob/main/employee.gif)
+![Sample of Portfolio]()
 
-Employee Pic: 
-![Sample of Employee app](https://github.com/anthony9292/employe-Hub/blob/main/screenshots/gitpash%20server.PNG)
+Portfolio Pic: 
+![Pick Of Portfolio]()
 
 ## Youtube 
 
